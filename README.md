@@ -6,8 +6,6 @@ This repository contains solutions for three related projects in high-energy phy
 2. **Specific Task 2A: Event Classification with Transformer Autoencoders**  
 3. **Specific Task 2H: Jet Classification Using Graph Neural Networks**
 
-Each project leverages a different deep learning architecture tailored to the underlying physics data, demonstrating effective classification performance while addressing domain-specific challenges.
-
 ---
 
 ## 1. Common Task: Electron/Photon Classification with ResNet-15
@@ -17,7 +15,7 @@ The goal is to classify two types of particles—electrons and photons—using i
 - **Channel 1:** Hit Energy
 - **Channel 2:** Time
 
-A ResNet-15–like architecture is employed to achieve high classification performance while ensuring robust generalization. The model is trained on 80% of the data and evaluated on the remaining 20%.
+A ResNet–15–like architecture is used here. The model is trained on 80% of the data and evaluated on the remaining 20%.
 
 ### Dataset
 - **Data Files:** Two HDF5 files (one for electrons and one for photons)
@@ -36,12 +34,12 @@ A ResNet-15–like architecture is employed to achieve high classification perfo
 ## 2. Specific Task 2A: Event Classification with Masked Transformer Autoencoders
 
 ### Problem Overview
-This task focuses on event classification by learning meaningful representations from high-energy physics events. A masked Transformer autoencoder is used to pretrain on event data; its latent space is then leveraged by a downstream classifier to discriminate between signal and background events.
+This task focuses on event classification by learning meaningful representations from high-energy physics events. A Transformer autoencoder is used to pretrain on event data; its latent space is then leveraged by a downstream classifier to discriminate between signal and background events.
 
 ### Dataset
 - **Source:** HIGGS dataset from the UCI Machine Learning Repository
 - **Data Subset:**
-  - **Training/Pretraining:** First 1.1 million events (using only the first 21 features)
+  - **Training/Pretraining:** First 1 million events (using only the first 21 features)
   - **Testing:** Last 100,000 events
 - **Feature Details:**  
   Kinematic properties including transverse momentum (pT), pseudorapidity (η), and azimuthal angle (φ). The φ features are transformed into cosine and sine components for improved representation.
@@ -69,6 +67,8 @@ This task focuses on event classification by learning meaningful representations
    - **Evaluation:** Performance is measured using ROC-AUC.
 
 ### Autoencoder Performance Metrics
+![image](https://github.com/user-attachments/assets/126559b3-c2cd-4733-8073-4a24c983ffd5)
+
 
 | Feature      | MSE    | MAE    | Pearson Corr. |
 |--------------|--------|--------|---------------|
