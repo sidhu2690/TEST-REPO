@@ -25,6 +25,6 @@ Each file contains 249,000 samples. Each sample is a 32×32 image with 2 channel
 
 ### Results
 ![image](https://github.com/user-attachments/assets/41b7158b-8ba8-47c7-b3d4-8c5af9509bd3)
-ROC: 0.80
-
+---
+Test Loss: 0.5512 | Test Accuracy: 0.7289 | ROC: 0.80
 
