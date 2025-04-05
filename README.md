@@ -151,17 +151,3 @@ This task tackles jet classification by converting jet images into point cloud g
 
 ### Summary
 Graph-based approaches successfully capture the spatial and intensity features of jet images. The Graph Edge Model achieves slightly better loss and accuracy, while the Graph Attention Model shows comparable AUC performance. Both models highlight the potential of GNNs for jet classification tasks in high-energy physics.
-
----
-
-## Overall Summary
-- **Electron/Photon Classification:**  
-  A ResNet-15–like model delivers 72.89% accuracy with an ROC AUC of 0.80 on 32×32 two-channel images.
-  
-- **Event Classification (Masked Transformer Autoencoders):**  
-  A physics-informed Transformer autoencoder pretrains robust latent representations, leading to a classifier ROC-AUC of approximately 0.73.
-  
-- **Jet Classification (Graph Neural Networks):**  
-  Two graph-based models—EdgeConv and GATConv architectures—achieve ROC-AUC scores around 0.78, confirming the efficacy of GNNs for this task.
-
-These projects illustrate diverse deep learning strategies, each tailored to leverage the unique characteristics of high-energy physics data for effective classification.
