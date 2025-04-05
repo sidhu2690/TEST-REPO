@@ -10,7 +10,9 @@ In this task, the goal is to design a model that can classify two types of parti
 - **Channel 1:** Hit energy
 - **Channel 2:** Time
 
-A ResNet-15 architecture is employed to achieve high classification performance while ensuring that the model does not overfit to the test dataset. The final model is trained on 80% of the data and evaluated on the remaining 20%.
+![image](https://github.com/user-attachments/assets/26a6f068-1465-4825-8dc5-563a0973cd5e)
+
+A ResNet-15 like architecture is employed to achieve high classification performance while ensuring that the model does not overfit to the test dataset. The final model is trained on 80% of the data and evaluated on the remaining 20%.
 
 ---
 
