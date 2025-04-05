@@ -3,7 +3,7 @@
 This repository contains solutions for three related projects in high-energy physics event analysis:
 
 1. **Common Task: Electron/Photon Classification with ResNet-15**  
-2. **Specific Task 2A: Event Classification with Masked Transformer Autoencoders**  
+2. **Specific Task 2A: Event Classification with Transformer Autoencoders**  
 3. **Specific Task 2H: Jet Classification Using Graph Neural Networks**
 
 Each project leverages a different deep learning architecture tailored to the underlying physics data, demonstrating effective classification performance while addressing domain-specific challenges.
