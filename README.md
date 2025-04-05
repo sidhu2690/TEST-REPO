@@ -102,8 +102,6 @@ This task focuses on event classification by learning meaningful representations
 ![ROC Curve](https://github.com/user-attachments/assets/621035c4-045f-4d6c-a8e4-91a5396da075)  
 ![Training AUC](https://github.com/user-attachments/assets/fdf1f18b-1235-45d0-aa76-1bea8b0d35f0)
 
-### Summary
-The integration of physics-informed loss functions within a Transformer autoencoder yields robust latent representations that facilitate effective event classification. The final classifier exhibits strong separation between signal and background events.
 
 ---
 
@@ -148,6 +146,3 @@ This task tackles jet classification by converting jet images into point cloud g
 - **ROC Curves:**  
   ROC curves generated on the test set show both models achieving ROC-AUC scores around 0.76, demonstrating effective class separation.
 
-
-### Summary
-Graph-based approaches successfully capture the spatial and intensity features of jet images. The Graph Edge Model achieves slightly better loss and accuracy, while the Graph Attention Model shows comparable AUC performance. Both models highlight the potential of GNNs for jet classification tasks in high-energy physics.
