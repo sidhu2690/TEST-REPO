@@ -23,4 +23,8 @@ The dataset consists of two HDF5 files:
 - **Electrons:**
 Each file contains 249,000 samples. Each sample is a 32×32 image with 2 channels.
 
+### Results
+![image](https://github.com/user-attachments/assets/41b7158b-8ba8-47c7-b3d4-8c5af9509bd3)
+ROC: 0.80
+
 
