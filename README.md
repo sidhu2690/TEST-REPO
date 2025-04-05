@@ -130,6 +130,7 @@ This task tackles jet classification by converting jet images into point cloud g
 | Epoch | Train Loss | Train Accuracy | Train AUC |
 |-------|------------|----------------|-----------|
 | 030   | 0.5804     | 70.17%         | 0.7787    |
+---
 ![image](https://github.com/user-attachments/assets/6cbe75f7-449f-4d79-8795-0e2fe1746398)
 
 #### Graph Attention Model
@@ -140,6 +141,7 @@ This task tackles jet classification by converting jet images into point cloud g
 | Epoch | Train Loss | Train Accuracy | Train AUC |
 |-------|------------|----------------|-----------|
 | 030   | 0.6263     | 66.01%         | 0.7815    |
+---
 ![image](https://github.com/user-attachments/assets/1fe9b7df-73cb-40c5-b446-be6168968501)
 
 ### Evaluation
