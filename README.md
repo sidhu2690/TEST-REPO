@@ -146,7 +146,7 @@ This task tackles jet classification by converting jet images into point cloud g
 
 ### Evaluation
 - **ROC Curves:**  
-  ROC curves generated on the test set show both models achieving ROC-AUC scores around 0.78, demonstrating effective class separation.
+  ROC curves generated on the test set show both models achieving ROC-AUC scores around 0.76, demonstrating effective class separation.
 
 
 ### Summary
